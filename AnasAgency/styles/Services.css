@@ -1,0 +1,65 @@
+.service-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 1%;
+}
+/*
+.union,
+.union * {
+  box-sizing: border-box;
+}
+
+.union {
+  width: 152px;
+  height: 381px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: visible;
+}
+*/
+.service-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 45%;
+  border-radius: 5px;
+  background-color: var(--c3);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.buttonC {
+  margin-top: 50px;
+}
+.service-section:hover {
+  cursor: pointer;
+}
+
+.service-section h1 {
+  display: flex;
+  align-items: center;
+}
+
+.service-wrapper h1 {
+  font-weight: 400;
+}
+
+.Services-W {
+  font-size: 60px;
+}
+
+.service-section p {
+  text-align: center;
+}
+
+.flip {
+  writing-mode: vertical-lr;
+}
+
+.AccountM {
+  width: 100%;
+}

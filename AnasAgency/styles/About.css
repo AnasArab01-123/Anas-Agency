@@ -1,0 +1,44 @@
+.About {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.scroll-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.About h1 {
+  font-size: 60px;
+  margin-top: 200px; /* Reduce or remove excessive margin */
+}
+
+.about-me-D {
+  text-align: center;
+  margin-top: 20px;
+  width: 40%; /* Adjust width if needed */
+  font-size: large;
+}
+
+.about-buttons-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%; /* Adjust width if needed */
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 400px;
+  background-color: var(--c3);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+}
